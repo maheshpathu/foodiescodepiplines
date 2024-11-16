@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'jenkinsslave2'
+        label any
     }
     environment {
         FOODIES_GIT_PAT = credentials('pattoken')
